@@ -1,0 +1,76 @@
+.faq {
+  // .content {
+  //   background: url("https://hexschool.github.io/webLayoutTraining1st/week3/qa.png") no-repeat center;
+  // }
+
+  h2 {
+    font-size: 32px;
+    margin-top: 80px;
+    margin-bottom: 36px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .line-spacing {
+    display: none;
+  }
+  p {
+    margin-left: 94px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  li {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width:992px) {
+  .faq {
+    h2 {
+      margin-top: 40px;
+    }
+   
+    p {
+      margin-left: 60px;
+      max-width: 630px;
+    }
+  }
+}
+
+@media (max-width:576px) { 
+  .content {
+     .banner {
+      h2 {
+        font-size: 28px;
+      }
+    }
+  }
+  .faq {
+    li {
+      margin-bottom: 20px;
+    }
+    .line-break {
+      display: none;
+    }
+    .line-spacing {
+      display: inline;
+    }
+    h2 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+    h3 {
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+    p {
+      margin-left: 0;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+}
